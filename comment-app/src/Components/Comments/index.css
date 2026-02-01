@@ -1,0 +1,112 @@
+/* Write your CSS here */
+
+.master_container {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.form_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 2px solid #dee0e3;
+}
+
+.comments_content_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+}
+
+.page-heading {
+  color: #1e293b;
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0px;
+}
+
+.page_para {
+  color: #1e293b;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.input_fields_container {
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+  gap: 12px;
+  height: 80%;
+}
+
+.name_input {
+  padding: 8px;
+  outline: none;
+  border: 1px solid #dee0e3;
+}
+
+.comment_input {
+  min-width: 200px;
+  min-height: 120px;
+  outline: none;
+  padding: 4px;
+  border: 1px solid #dee0e3;
+}
+
+.image_container {
+  width: 30%;
+}
+
+.comments_image {
+  height: 320px;
+  width: 340px;
+}
+
+.add_comment_button {
+  background-color: #0284c7;
+  border: none;
+  padding: 8px;
+  color: #ffffff;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.comments_collection {
+  padding: 12px;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+.count_master_container {
+  gap: 12px;
+  width: 15%;
+  display: flex;
+  align-items: center;
+  margin-top: 0px;
+}
+
+.count_container {
+  background-color: #0284c7;
+  padding: 10px;
+  border-radius: 6px;
+  height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.count {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.count_text {
+  font-size: 14px;
+  font-weight: 500;
+  color: #475569;
+}
